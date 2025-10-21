@@ -1,0 +1,2018 @@
+{
+    "3_layers_narrow_decreasing": {
+        "width_scheme": "narrow_decreasing",
+        "widths": [
+            64,
+            32,
+            16
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9603333333333334,
+        "final_train_acc": 0.9711481481481481,
+        "val_accs": [
+            0.9275,
+            0.9451666666666667,
+            0.9593333333333334,
+            0.954,
+            0.9603333333333334
+        ],
+        "train_accs": [
+            0.8494259259259259,
+            0.9441111111111111,
+            0.9578333333333333,
+            0.9669444444444445,
+            0.9711481481481481
+        ],
+        "params_count": 53128,
+        "training_time_sec": 56.75499963760376
+    },
+    "3_layers_narrow_constant": {
+        "width_scheme": "narrow_constant",
+        "widths": [
+            64,
+            64,
+            64
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9616666666666667,
+        "final_train_acc": 0.9778518518518519,
+        "val_accs": [
+            0.9388333333333333,
+            0.9516666666666667,
+            0.9598333333333333,
+            0.9668333333333333,
+            0.9616666666666667
+        ],
+        "train_accs": [
+            0.8783333333333333,
+            0.9535,
+            0.9650185185185185,
+            0.9724259259259259,
+            0.9778518518518519
+        ],
+        "params_count": 59320,
+        "training_time_sec": 56.41508960723877
+    },
+    "3_layers_narrow_increasing": {
+        "width_scheme": "narrow_increasing",
+        "widths": [
+            16,
+            32,
+            64
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9448333333333333,
+        "final_train_acc": 0.9549074074074074,
+        "val_accs": [
+            0.916,
+            0.9333333333333333,
+            0.9398333333333333,
+            0.9451666666666667,
+            0.9448333333333333
+        ],
+        "train_accs": [
+            0.8358888888888889,
+            0.9276666666666666,
+            0.9417037037037037,
+            0.9489444444444445,
+            0.9549074074074074
+        ],
+        "params_count": 15976,
+        "training_time_sec": 56.42061924934387
+    },
+    "3_layers_medium_decreasing": {
+        "width_scheme": "medium_decreasing",
+        "widths": [
+            256,
+            128,
+            64
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9726666666666667,
+        "final_train_acc": 0.9835925925925926,
+        "val_accs": [
+            0.9505,
+            0.9636666666666667,
+            0.973,
+            0.9713333333333334,
+            0.9726666666666667
+        ],
+        "train_accs": [
+            0.9066666666666666,
+            0.9645925925925926,
+            0.9751481481481481,
+            0.9808703703703704,
+            0.9835925925925926
+        ],
+        "params_count": 242872,
+        "training_time_sec": 55.89703416824341
+    },
+    "3_layers_medium_constant": {
+        "width_scheme": "medium_constant",
+        "widths": [
+            256,
+            256,
+            256
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": false,
+        "final_val_acc": 0.976,
+        "final_train_acc": 0.9842407407407407,
+        "val_accs": [
+            0.961,
+            0.9666666666666667,
+            0.9716666666666667,
+            0.9726666666666667,
+            0.976
+        ],
+        "train_accs": [
+            0.9162777777777777,
+            0.9678888888888889,
+            0.9767037037037037,
+            0.9815,
+            0.9842407407407407
+        ],
+        "params_count": 335224,
+        "training_time_sec": 55.82494282722473
+    },
+    "3_layers_medium_increasing": {
+        "width_scheme": "medium_increasing",
+        "widths": [
+            64,
+            128,
+            256
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9681666666666666,
+        "final_train_acc": 0.9792962962962963,
+        "val_accs": [
+            0.9488333333333333,
+            0.9575,
+            0.9653333333333334,
+            0.9668333333333333,
+            0.9681666666666666
+        ],
+        "train_accs": [
+            0.8992407407407408,
+            0.9586666666666667,
+            0.9697777777777777,
+            0.975574074074074,
+            0.9792962962962963
+        ],
+        "params_count": 94264,
+        "training_time_sec": 56.46121907234192
+    },
+    "3_layers_wide_decreasing": {
+        "width_scheme": "wide_decreasing",
+        "widths": [
+            1024,
+            512,
+            256
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9758333333333333,
+        "final_train_acc": 0.9854444444444445,
+        "val_accs": [
+            0.9618333333333333,
+            0.9633333333333334,
+            0.9725,
+            0.9673333333333334,
+            0.9758333333333333
+        ],
+        "train_accs": [
+            0.9243888888888889,
+            0.9701666666666666,
+            0.9781481481481481,
+            0.984037037037037,
+            0.9854444444444445
+        ],
+        "params_count": 1462648,
+        "training_time_sec": 56.576188802719116
+    },
+    "3_layers_wide_constant": {
+        "width_scheme": "wide_constant",
+        "widths": [
+            1024,
+            1024,
+            1024
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9748333333333333,
+        "final_train_acc": 0.9865555555555555,
+        "val_accs": [
+            0.9546666666666667,
+            0.9715,
+            0.974,
+            0.9713333333333334,
+            0.9748333333333333
+        ],
+        "train_accs": [
+            0.9274629629629629,
+            0.9695555555555555,
+            0.9775,
+            0.9813148148148149,
+            0.9865555555555555
+        ],
+        "params_count": 2913400,
+        "training_time_sec": 59.95193600654602
+    },
+    "3_layers_wide_increasing": {
+        "width_scheme": "wide_increasing",
+        "widths": [
+            256,
+            512,
+            1024
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9753333333333334,
+        "final_train_acc": 0.9834074074074074,
+        "val_accs": [
+            0.9601666666666666,
+            0.9686666666666667,
+            0.9721666666666666,
+            0.9736666666666667,
+            0.9753333333333334
+        ],
+        "train_accs": [
+            0.9228703703703703,
+            0.9680740740740741,
+            0.9755925925925926,
+            0.981574074074074,
+            0.9834074074074074
+        ],
+        "params_count": 868216,
+        "training_time_sec": 56.95564126968384
+    },
+    "3_layers_xwide_decreasing": {
+        "width_scheme": "xwide_decreasing",
+        "widths": [
+            2048,
+            1024,
+            512
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9751666666666666,
+        "final_train_acc": 0.9857037037037037,
+        "val_accs": [
+            0.9643333333333334,
+            0.9705,
+            0.9721666666666666,
+            0.9666666666666667,
+            0.9751666666666666
+        ],
+        "train_accs": [
+            0.9287962962962963,
+            0.9689074074074074,
+            0.9786666666666667,
+            0.9837037037037037,
+            0.9857037037037037
+        ],
+        "params_count": 4235896,
+        "training_time_sec": 61.94294857978821
+    },
+    "3_layers_xwide_constant": {
+        "width_scheme": "xwide_constant",
+        "widths": [
+            2048,
+            2048,
+            2048
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9796666666666667,
+        "final_train_acc": 0.9853518518518518,
+        "val_accs": [
+            0.9648333333333333,
+            0.968,
+            0.9665,
+            0.9733333333333334,
+            0.9796666666666667
+        ],
+        "train_accs": [
+            0.927962962962963,
+            0.9667407407407408,
+            0.9767962962962963,
+            0.9808888888888889,
+            0.9853518518518518
+        ],
+        "params_count": 10020984,
+        "training_time_sec": 73.53404879570007
+    },
+    "3_layers_xwide_increasing": {
+        "width_scheme": "xwide_increasing",
+        "widths": [
+            512,
+            1024,
+            2048
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9763333333333334,
+        "final_train_acc": 0.9853518518518518,
+        "val_accs": [
+            0.9616666666666667,
+            0.9691666666666666,
+            0.9671666666666666,
+            0.9713333333333334,
+            0.9763333333333334
+        ],
+        "train_accs": [
+            0.9264629629629629,
+            0.9690185185185185,
+            0.9759814814814814,
+            0.9798518518518519,
+            0.9853518518518518
+        ],
+        "params_count": 3047032,
+        "training_time_sec": 57.80565404891968
+    },
+    "3_layers_narrow_decreasing_batchnorm": {
+        "width_scheme": "narrow_decreasing",
+        "widths": [
+            64,
+            32,
+            16
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9736666666666667,
+        "final_train_acc": 0.9765555555555555,
+        "val_accs": [
+            0.954,
+            0.9671666666666666,
+            0.9668333333333333,
+            0.9716666666666667,
+            0.9736666666666667
+        ],
+        "train_accs": [
+            0.8739629629629629,
+            0.9570740740740741,
+            0.9667592592592592,
+            0.9738518518518519,
+            0.9765555555555555
+        ],
+        "params_count": 53352,
+        "training_time_sec": 56.952107429504395
+    },
+    "3_layers_narrow_constant_batchnorm": {
+        "width_scheme": "narrow_constant",
+        "widths": [
+            64,
+            64,
+            64
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9698333333333333,
+        "final_train_acc": 0.9792592592592593,
+        "val_accs": [
+            0.9583333333333334,
+            0.9666666666666667,
+            0.9716666666666667,
+            0.9706666666666667,
+            0.9698333333333333
+        ],
+        "train_accs": [
+            0.9073703703703704,
+            0.9628703703703704,
+            0.9714444444444444,
+            0.976037037037037,
+            0.9792592592592593
+        ],
+        "params_count": 59704,
+        "training_time_sec": 57.61929965019226
+    },
+    "3_layers_narrow_increasing_batchnorm": {
+        "width_scheme": "narrow_increasing",
+        "widths": [
+            16,
+            32,
+            64
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9536666666666667,
+        "final_train_acc": 0.9536111111111111,
+        "val_accs": [
+            0.9428333333333333,
+            0.9435,
+            0.9495,
+            0.9541666666666667,
+            0.9536666666666667
+        ],
+        "train_accs": [
+            0.8732037037037037,
+            0.934962962962963,
+            0.9438518518518518,
+            0.9488148148148148,
+            0.9536111111111111
+        ],
+        "params_count": 16200,
+        "training_time_sec": 56.330002546310425
+    },
+    "3_layers_medium_decreasing_batchnorm": {
+        "width_scheme": "medium_decreasing",
+        "widths": [
+            256,
+            128,
+            64
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9778333333333333,
+        "final_train_acc": 0.9854814814814815,
+        "val_accs": [
+            0.9673333333333334,
+            0.9721666666666666,
+            0.9746666666666667,
+            0.9776666666666667,
+            0.9778333333333333
+        ],
+        "train_accs": [
+            0.926537037037037,
+            0.9702407407407407,
+            0.9777777777777777,
+            0.9817777777777777,
+            0.9854814814814815
+        ],
+        "params_count": 243768,
+        "training_time_sec": 56.793458223342896
+    },
+    "3_layers_medium_constant_batchnorm": {
+        "width_scheme": "medium_constant",
+        "widths": [
+            256,
+            256,
+            256
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": true,
+        "final_val_acc": 0.975,
+        "final_train_acc": 0.9856481481481482,
+        "val_accs": [
+            0.9668333333333333,
+            0.9686666666666667,
+            0.975,
+            0.9776666666666667,
+            0.975
+        ],
+        "train_accs": [
+            0.9357407407407408,
+            0.9692222222222222,
+            0.9776111111111111,
+            0.981925925925926,
+            0.9856481481481482
+        ],
+        "params_count": 336760,
+        "training_time_sec": 56.72833561897278
+    },
+    "3_layers_medium_increasing_batchnorm": {
+        "width_scheme": "medium_increasing",
+        "widths": [
+            64,
+            128,
+            256
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": true,
+        "final_val_acc": 0.972,
+        "final_train_acc": 0.9797222222222223,
+        "val_accs": [
+            0.9586666666666667,
+            0.969,
+            0.9721666666666666,
+            0.9715,
+            0.972
+        ],
+        "train_accs": [
+            0.9226481481481481,
+            0.9623148148148148,
+            0.9722037037037037,
+            0.9762222222222222,
+            0.9797222222222223
+        ],
+        "params_count": 95160,
+        "training_time_sec": 56.74263334274292
+    },
+    "3_layers_wide_decreasing_batchnorm": {
+        "width_scheme": "wide_decreasing",
+        "widths": [
+            1024,
+            512,
+            256
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9773333333333334,
+        "final_train_acc": 0.985574074074074,
+        "val_accs": [
+            0.9681666666666666,
+            0.9703333333333334,
+            0.9785,
+            0.9811666666666666,
+            0.9773333333333334
+        ],
+        "train_accs": [
+            0.9372592592592592,
+            0.9702962962962963,
+            0.9779074074074074,
+            0.9833703703703703,
+            0.985574074074074
+        ],
+        "params_count": 1466232,
+        "training_time_sec": 58.497472047805786
+    },
+    "3_layers_wide_constant_batchnorm": {
+        "width_scheme": "wide_constant",
+        "widths": [
+            1024,
+            1024,
+            1024
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9796666666666667,
+        "final_train_acc": 0.985,
+        "val_accs": [
+            0.9628333333333333,
+            0.9773333333333334,
+            0.9756666666666667,
+            0.973,
+            0.9796666666666667
+        ],
+        "train_accs": [
+            0.9386111111111111,
+            0.9684259259259259,
+            0.9776481481481482,
+            0.9819814814814815,
+            0.985
+        ],
+        "params_count": 2919544,
+        "training_time_sec": 59.56838631629944
+    },
+    "3_layers_wide_increasing_batchnorm": {
+        "width_scheme": "wide_increasing",
+        "widths": [
+            256,
+            512,
+            1024
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9755,
+        "final_train_acc": 0.9835,
+        "val_accs": [
+            0.9686666666666667,
+            0.9723333333333334,
+            0.9738333333333333,
+            0.9753333333333334,
+            0.9755
+        ],
+        "train_accs": [
+            0.9356481481481481,
+            0.9692037037037037,
+            0.9758703703703704,
+            0.9813333333333333,
+            0.9835
+        ],
+        "params_count": 871800,
+        "training_time_sec": 56.632895946502686
+    },
+    "3_layers_xwide_decreasing_batchnorm": {
+        "width_scheme": "xwide_decreasing",
+        "widths": [
+            2048,
+            1024,
+            512
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": true,
+        "final_val_acc": 0.979,
+        "final_train_acc": 0.9850185185185185,
+        "val_accs": [
+            0.963,
+            0.972,
+            0.977,
+            0.9786666666666667,
+            0.979
+        ],
+        "train_accs": [
+            0.9387037037037037,
+            0.9686111111111111,
+            0.9774074074074074,
+            0.9820555555555556,
+            0.9850185185185185
+        ],
+        "params_count": 4243064,
+        "training_time_sec": 62.19102334976196
+    },
+    "3_layers_xwide_constant_batchnorm": {
+        "width_scheme": "xwide_constant",
+        "widths": [
+            2048,
+            2048,
+            2048
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9803333333333333,
+        "final_train_acc": 0.9829444444444444,
+        "val_accs": [
+            0.954,
+            0.9748333333333333,
+            0.9708333333333333,
+            0.976,
+            0.9803333333333333
+        ],
+        "train_accs": [
+            0.9338518518518518,
+            0.967037037037037,
+            0.9766481481481482,
+            0.9801481481481481,
+            0.9829444444444444
+        ],
+        "params_count": 10033272,
+        "training_time_sec": 74.78371858596802
+    },
+    "3_layers_xwide_increasing_batchnorm": {
+        "width_scheme": "xwide_increasing",
+        "widths": [
+            512,
+            1024,
+            2048
+        ],
+        "dropout_rate": 0.0,
+        "use_batchnorm": true,
+        "final_val_acc": 0.979,
+        "final_train_acc": 0.9827592592592592,
+        "val_accs": [
+            0.9618333333333333,
+            0.9716666666666667,
+            0.9731666666666666,
+            0.9758333333333333,
+            0.979
+        ],
+        "train_accs": [
+            0.9366111111111111,
+            0.9664259259259259,
+            0.9757777777777777,
+            0.9801111111111112,
+            0.9827592592592592
+        ],
+        "params_count": 3054200,
+        "training_time_sec": 59.85740542411804
+    },
+    "3_layers_narrow_decreasing_dropout0.2": {
+        "width_scheme": "narrow_decreasing",
+        "widths": [
+            64,
+            32,
+            16
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9583333333333334,
+        "final_train_acc": 0.9447037037037037,
+        "val_accs": [
+            0.9266666666666666,
+            0.9418333333333333,
+            0.9516666666666667,
+            0.9556666666666667,
+            0.9583333333333334
+        ],
+        "train_accs": [
+            0.8007777777777778,
+            0.9164629629629629,
+            0.9327222222222222,
+            0.9405925925925926,
+            0.9447037037037037
+        ],
+        "params_count": 53128,
+        "training_time_sec": 54.491148471832275
+    },
+    "3_layers_narrow_constant_dropout0.2": {
+        "width_scheme": "narrow_constant",
+        "widths": [
+            64,
+            64,
+            64
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9618333333333333,
+        "final_train_acc": 0.9511111111111111,
+        "val_accs": [
+            0.933,
+            0.9503333333333334,
+            0.9526666666666667,
+            0.9575,
+            0.9618333333333333
+        ],
+        "train_accs": [
+            0.8417777777777777,
+            0.9282407407407407,
+            0.939962962962963,
+            0.9478703703703704,
+            0.9511111111111111
+        ],
+        "params_count": 59320,
+        "training_time_sec": 54.58692693710327
+    },
+    "3_layers_narrow_increasing_dropout0.2": {
+        "width_scheme": "narrow_increasing",
+        "widths": [
+            16,
+            32,
+            64
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9171666666666667,
+        "final_train_acc": 0.859574074074074,
+        "val_accs": [
+            0.892,
+            0.9,
+            0.9063333333333333,
+            0.9026666666666666,
+            0.9171666666666667
+        ],
+        "train_accs": [
+            0.6942222222222222,
+            0.8247407407407408,
+            0.8451481481481481,
+            0.8559814814814815,
+            0.859574074074074
+        ],
+        "params_count": 15976,
+        "training_time_sec": 54.48732542991638
+    },
+    "3_layers_medium_decreasing_dropout0.2": {
+        "width_scheme": "medium_decreasing",
+        "widths": [
+            256,
+            128,
+            64
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9743333333333334,
+        "final_train_acc": 0.976,
+        "val_accs": [
+            0.9451666666666667,
+            0.9621666666666666,
+            0.9703333333333334,
+            0.9671666666666666,
+            0.9743333333333334
+        ],
+        "train_accs": [
+            0.8834074074074074,
+            0.9533703703703704,
+            0.9658333333333333,
+            0.9711851851851852,
+            0.976
+        ],
+        "params_count": 242872,
+        "training_time_sec": 55.08475470542908
+    },
+    "3_layers_medium_constant_dropout0.2": {
+        "width_scheme": "medium_constant",
+        "widths": [
+            256,
+            256,
+            256
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9691666666666666,
+        "final_train_acc": 0.9756296296296296,
+        "val_accs": [
+            0.951,
+            0.9646666666666667,
+            0.9711666666666666,
+            0.9713333333333334,
+            0.9691666666666666
+        ],
+        "train_accs": [
+            0.9026666666666666,
+            0.9578703703703704,
+            0.9675555555555555,
+            0.9734259259259259,
+            0.9756296296296296
+        ],
+        "params_count": 335224,
+        "training_time_sec": 55.20902490615845
+    },
+    "3_layers_medium_increasing_dropout0.2": {
+        "width_scheme": "medium_increasing",
+        "widths": [
+            64,
+            128,
+            256
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9663333333333334,
+        "final_train_acc": 0.955925925925926,
+        "val_accs": [
+            0.9475,
+            0.9566666666666667,
+            0.9601666666666666,
+            0.9633333333333334,
+            0.9663333333333334
+        ],
+        "train_accs": [
+            0.8639814814814815,
+            0.9354259259259259,
+            0.9471481481481482,
+            0.951462962962963,
+            0.955925925925926
+        ],
+        "params_count": 94264,
+        "training_time_sec": 55.0332248210907
+    },
+    "3_layers_wide_decreasing_dropout0.2": {
+        "width_scheme": "wide_decreasing",
+        "widths": [
+            1024,
+            512,
+            256
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9745,
+        "final_train_acc": 0.9797222222222223,
+        "val_accs": [
+            0.9611666666666666,
+            0.9728333333333333,
+            0.9715,
+            0.9723333333333334,
+            0.9745
+        ],
+        "train_accs": [
+            0.9199259259259259,
+            0.9650740740740741,
+            0.9727777777777777,
+            0.9767777777777777,
+            0.9797222222222223
+        ],
+        "params_count": 1462648,
+        "training_time_sec": 56.78730750083923
+    },
+    "3_layers_wide_constant_dropout0.2": {
+        "width_scheme": "wide_constant",
+        "widths": [
+            1024,
+            1024,
+            1024
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9765,
+        "final_train_acc": 0.9788888888888889,
+        "val_accs": [
+            0.9525,
+            0.9615,
+            0.9705,
+            0.9741666666666666,
+            0.9765
+        ],
+        "train_accs": [
+            0.9213888888888889,
+            0.9620555555555556,
+            0.9705185185185186,
+            0.9754074074074074,
+            0.9788888888888889
+        ],
+        "params_count": 2913400,
+        "training_time_sec": 58.481154441833496
+    },
+    "3_layers_wide_increasing_dropout0.2": {
+        "width_scheme": "wide_increasing",
+        "widths": [
+            256,
+            512,
+            1024
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9726666666666667,
+        "final_train_acc": 0.9746296296296296,
+        "val_accs": [
+            0.96,
+            0.9635,
+            0.9688333333333333,
+            0.972,
+            0.9726666666666667
+        ],
+        "train_accs": [
+            0.9093333333333333,
+            0.957962962962963,
+            0.9667592592592592,
+            0.9707592592592592,
+            0.9746296296296296
+        ],
+        "params_count": 868216,
+        "training_time_sec": 55.81172823905945
+    },
+    "3_layers_xwide_decreasing_dropout0.2": {
+        "width_scheme": "xwide_decreasing",
+        "widths": [
+            2048,
+            1024,
+            512
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9755,
+        "final_train_acc": 0.9811111111111112,
+        "val_accs": [
+            0.9603333333333334,
+            0.9708333333333333,
+            0.9736666666666667,
+            0.9711666666666666,
+            0.9755
+        ],
+        "train_accs": [
+            0.9240925925925926,
+            0.9638703703703704,
+            0.9734259259259259,
+            0.9782407407407407,
+            0.9811111111111112
+        ],
+        "params_count": 4235896,
+        "training_time_sec": 61.70497512817383
+    },
+    "3_layers_xwide_constant_dropout0.2": {
+        "width_scheme": "xwide_constant",
+        "widths": [
+            2048,
+            2048,
+            2048
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9773333333333334,
+        "final_train_acc": 0.9802407407407407,
+        "val_accs": [
+            0.9598333333333333,
+            0.9671666666666666,
+            0.9688333333333333,
+            0.973,
+            0.9773333333333334
+        ],
+        "train_accs": [
+            0.9207407407407407,
+            0.9612037037037037,
+            0.9714444444444444,
+            0.9766111111111111,
+            0.9802407407407407
+        ],
+        "params_count": 10020984,
+        "training_time_sec": 73.68326354026794
+    },
+    "3_layers_xwide_increasing_dropout0.2": {
+        "width_scheme": "xwide_increasing",
+        "widths": [
+            512,
+            1024,
+            2048
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9745,
+        "final_train_acc": 0.9770925925925926,
+        "val_accs": [
+            0.9535,
+            0.9615,
+            0.9725,
+            0.975,
+            0.9745
+        ],
+        "train_accs": [
+            0.9174814814814815,
+            0.9598703703703704,
+            0.9683518518518518,
+            0.9736851851851852,
+            0.9770925925925926
+        ],
+        "params_count": 3047032,
+        "training_time_sec": 58.314279079437256
+    },
+    "3_layers_narrow_decreasing_dropout0.2_batchnorm": {
+        "width_scheme": "narrow_decreasing",
+        "widths": [
+            64,
+            32,
+            16
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": true,
+        "final_val_acc": 0.965,
+        "final_train_acc": 0.9405555555555556,
+        "val_accs": [
+            0.9386666666666666,
+            0.952,
+            0.9573333333333334,
+            0.9605,
+            0.965
+        ],
+        "train_accs": [
+            0.8166111111111111,
+            0.9128148148148149,
+            0.9269814814814815,
+            0.9356296296296296,
+            0.9405555555555556
+        ],
+        "params_count": 53352,
+        "training_time_sec": 56.60469174385071
+    },
+    "3_layers_narrow_constant_dropout0.2_batchnorm": {
+        "width_scheme": "narrow_constant",
+        "widths": [
+            64,
+            64,
+            64
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9698333333333333,
+        "final_train_acc": 0.9514814814814815,
+        "val_accs": [
+            0.9488333333333333,
+            0.9636666666666667,
+            0.9655,
+            0.9661666666666666,
+            0.9698333333333333
+        ],
+        "train_accs": [
+            0.8652222222222222,
+            0.9313888888888889,
+            0.9396111111111111,
+            0.9460185185185185,
+            0.9514814814814815
+        ],
+        "params_count": 59704,
+        "training_time_sec": 56.93554735183716
+    },
+    "3_layers_narrow_increasing_dropout0.2_batchnorm": {
+        "width_scheme": "narrow_increasing",
+        "widths": [
+            16,
+            32,
+            64
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9256666666666666,
+        "final_train_acc": 0.8653518518518518,
+        "val_accs": [
+            0.908,
+            0.9158333333333334,
+            0.9203333333333333,
+            0.9251666666666667,
+            0.9256666666666666
+        ],
+        "train_accs": [
+            0.7617777777777778,
+            0.8426851851851852,
+            0.8549814814814815,
+            0.8636851851851852,
+            0.8653518518518518
+        ],
+        "params_count": 16200,
+        "training_time_sec": 56.53268122673035
+    },
+    "3_layers_medium_decreasing_dropout0.2_batchnorm": {
+        "width_scheme": "medium_decreasing",
+        "widths": [
+            256,
+            128,
+            64
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9765,
+        "final_train_acc": 0.9728888888888889,
+        "val_accs": [
+            0.9563333333333334,
+            0.972,
+            0.9721666666666666,
+            0.9768333333333333,
+            0.9765
+        ],
+        "train_accs": [
+            0.9052592592592592,
+            0.9561481481481482,
+            0.9633148148148148,
+            0.9689814814814814,
+            0.9728888888888889
+        ],
+        "params_count": 243768,
+        "training_time_sec": 57.355695724487305
+    },
+    "3_layers_medium_constant_dropout0.2_batchnorm": {
+        "width_scheme": "medium_constant",
+        "widths": [
+            256,
+            256,
+            256
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9776666666666667,
+        "final_train_acc": 0.9748518518518519,
+        "val_accs": [
+            0.9606666666666667,
+            0.9718333333333333,
+            0.9763333333333334,
+            0.9756666666666667,
+            0.9776666666666667
+        ],
+        "train_accs": [
+            0.9136111111111112,
+            0.957462962962963,
+            0.9662222222222222,
+            0.9721851851851852,
+            0.9748518518518519
+        ],
+        "params_count": 336760,
+        "training_time_sec": 57.44240999221802
+    },
+    "3_layers_medium_increasing_dropout0.2_batchnorm": {
+        "width_scheme": "medium_increasing",
+        "widths": [
+            64,
+            128,
+            256
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9705,
+        "final_train_acc": 0.9551296296296297,
+        "val_accs": [
+            0.9531666666666667,
+            0.9611666666666666,
+            0.9666666666666667,
+            0.9666666666666667,
+            0.9705
+        ],
+        "train_accs": [
+            0.8805185185185185,
+            0.9357777777777778,
+            0.9451481481481482,
+            0.9509814814814814,
+            0.9551296296296297
+        ],
+        "params_count": 95160,
+        "training_time_sec": 58.81175136566162
+    },
+    "3_layers_wide_decreasing_dropout0.2_batchnorm": {
+        "width_scheme": "wide_decreasing",
+        "widths": [
+            1024,
+            512,
+            256
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9786666666666667,
+        "final_train_acc": 0.981037037037037,
+        "val_accs": [
+            0.9661666666666666,
+            0.9738333333333333,
+            0.9763333333333334,
+            0.979,
+            0.9786666666666667
+        ],
+        "train_accs": [
+            0.9304814814814815,
+            0.9656666666666667,
+            0.9738333333333333,
+            0.9774444444444444,
+            0.981037037037037
+        ],
+        "params_count": 1466232,
+        "training_time_sec": 61.596004247665405
+    },
+    "3_layers_wide_constant_dropout0.2_batchnorm": {
+        "width_scheme": "wide_constant",
+        "widths": [
+            1024,
+            1024,
+            1024
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9766666666666667,
+        "final_train_acc": 0.9812222222222222,
+        "val_accs": [
+            0.9623333333333334,
+            0.9691666666666666,
+            0.9766666666666667,
+            0.9786666666666667,
+            0.9766666666666667
+        ],
+        "train_accs": [
+            0.9296481481481481,
+            0.9655,
+            0.972462962962963,
+            0.9767222222222223,
+            0.9812222222222222
+        ],
+        "params_count": 2919544,
+        "training_time_sec": 62.21803402900696
+    },
+    "3_layers_wide_increasing_dropout0.2_batchnorm": {
+        "width_scheme": "wide_increasing",
+        "widths": [
+            256,
+            512,
+            1024
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": true,
+        "final_val_acc": 0.978,
+        "final_train_acc": 0.9746851851851852,
+        "val_accs": [
+            0.9615,
+            0.9706666666666667,
+            0.9711666666666666,
+            0.9766666666666667,
+            0.978
+        ],
+        "train_accs": [
+            0.9202222222222223,
+            0.9570925925925926,
+            0.9662222222222222,
+            0.9706481481481481,
+            0.9746851851851852
+        ],
+        "params_count": 871800,
+        "training_time_sec": 61.20584464073181
+    },
+    "3_layers_xwide_decreasing_dropout0.2_batchnorm": {
+        "width_scheme": "xwide_decreasing",
+        "widths": [
+            2048,
+            1024,
+            512
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": true,
+        "final_val_acc": 0.978,
+        "final_train_acc": 0.9821666666666666,
+        "val_accs": [
+            0.965,
+            0.972,
+            0.9758333333333333,
+            0.9781666666666666,
+            0.978
+        ],
+        "train_accs": [
+            0.9342962962962963,
+            0.9656296296296296,
+            0.9744259259259259,
+            0.9782222222222222,
+            0.9821666666666666
+        ],
+        "params_count": 4243064,
+        "training_time_sec": 63.81921458244324
+    },
+    "3_layers_xwide_constant_dropout0.2_batchnorm": {
+        "width_scheme": "xwide_constant",
+        "widths": [
+            2048,
+            2048,
+            2048
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9775,
+        "final_train_acc": 0.9811666666666666,
+        "val_accs": [
+            0.9671666666666666,
+            0.9705,
+            0.9746666666666667,
+            0.9785,
+            0.9775
+        ],
+        "train_accs": [
+            0.9326481481481481,
+            0.9647037037037037,
+            0.9728703703703704,
+            0.9771296296296297,
+            0.9811666666666666
+        ],
+        "params_count": 10033272,
+        "training_time_sec": 75.86712622642517
+    },
+    "3_layers_xwide_increasing_dropout0.2_batchnorm": {
+        "width_scheme": "xwide_increasing",
+        "widths": [
+            512,
+            1024,
+            2048
+        ],
+        "dropout_rate": 0.2,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9778333333333333,
+        "final_train_acc": 0.9782222222222222,
+        "val_accs": [
+            0.9661666666666666,
+            0.971,
+            0.9763333333333334,
+            0.98,
+            0.9778333333333333
+        ],
+        "train_accs": [
+            0.9284074074074075,
+            0.9628888888888889,
+            0.9689629629629629,
+            0.9737962962962963,
+            0.9782222222222222
+        ],
+        "params_count": 3054200,
+        "training_time_sec": 62.60129690170288
+    },
+    "3_layers_narrow_decreasing_dropout0.4": {
+        "width_scheme": "narrow_decreasing",
+        "widths": [
+            64,
+            32,
+            16
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9418333333333333,
+        "final_train_acc": 0.9044629629629629,
+        "val_accs": [
+            0.9045,
+            0.9258333333333333,
+            0.9345,
+            0.9415,
+            0.9418333333333333
+        ],
+        "train_accs": [
+            0.7250740740740741,
+            0.863537037037037,
+            0.8877222222222222,
+            0.8989259259259259,
+            0.9044629629629629
+        ],
+        "params_count": 53128,
+        "training_time_sec": 58.50677132606506
+    },
+    "3_layers_narrow_constant_dropout0.4": {
+        "width_scheme": "narrow_constant",
+        "widths": [
+            64,
+            64,
+            64
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9503333333333334,
+        "final_train_acc": 0.9196666666666666,
+        "val_accs": [
+            0.9188333333333333,
+            0.9365,
+            0.9443333333333334,
+            0.9478333333333333,
+            0.9503333333333334
+        ],
+        "train_accs": [
+            0.7834444444444445,
+            0.8899814814814815,
+            0.9072222222222223,
+            0.9168518518518518,
+            0.9196666666666666
+        ],
+        "params_count": 59320,
+        "training_time_sec": 57.135565996170044
+    },
+    "3_layers_narrow_increasing_dropout0.4": {
+        "width_scheme": "narrow_increasing",
+        "widths": [
+            16,
+            32,
+            64
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": false,
+        "final_val_acc": 0.8706666666666667,
+        "final_train_acc": 0.729574074074074,
+        "val_accs": [
+            0.8511666666666666,
+            0.8778333333333334,
+            0.8858333333333334,
+            0.877,
+            0.8706666666666667
+        ],
+        "train_accs": [
+            0.551,
+            0.6758888888888889,
+            0.703925925925926,
+            0.7184259259259259,
+            0.729574074074074
+        ],
+        "params_count": 15976,
+        "training_time_sec": 57.19443964958191
+    },
+    "3_layers_medium_decreasing_dropout0.4": {
+        "width_scheme": "medium_decreasing",
+        "widths": [
+            256,
+            128,
+            64
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9678333333333333,
+        "final_train_acc": 0.9618518518518518,
+        "val_accs": [
+            0.9458333333333333,
+            0.9528333333333333,
+            0.9643333333333334,
+            0.9686666666666667,
+            0.9678333333333333
+        ],
+        "train_accs": [
+            0.8601296296296296,
+            0.9384814814814815,
+            0.9506851851851852,
+            0.957462962962963,
+            0.9618518518518518
+        ],
+        "params_count": 242872,
+        "training_time_sec": 61.25192093849182
+    },
+    "3_layers_medium_constant_dropout0.4": {
+        "width_scheme": "medium_constant",
+        "widths": [
+            256,
+            256,
+            256
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9698333333333333,
+        "final_train_acc": 0.9635925925925926,
+        "val_accs": [
+            0.9498333333333333,
+            0.966,
+            0.9683333333333334,
+            0.9728333333333333,
+            0.9698333333333333
+        ],
+        "train_accs": [
+            0.8789259259259259,
+            0.9422407407407407,
+            0.9532962962962963,
+            0.958925925925926,
+            0.9635925925925926
+        ],
+        "params_count": 335224,
+        "training_time_sec": 58.12346363067627
+    },
+    "3_layers_medium_increasing_dropout0.4": {
+        "width_scheme": "medium_increasing",
+        "widths": [
+            64,
+            128,
+            256
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9521666666666667,
+        "final_train_acc": 0.9247777777777778,
+        "val_accs": [
+            0.9308333333333333,
+            0.9391666666666667,
+            0.9435,
+            0.9503333333333334,
+            0.9521666666666667
+        ],
+        "train_accs": [
+            0.8089074074074074,
+            0.8969814814814815,
+            0.913074074074074,
+            0.9202222222222223,
+            0.9247777777777778
+        ],
+        "params_count": 94264,
+        "training_time_sec": 58.161444902420044
+    },
+    "3_layers_wide_decreasing_dropout0.4": {
+        "width_scheme": "wide_decreasing",
+        "widths": [
+            1024,
+            512,
+            256
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": false,
+        "final_val_acc": 0.974,
+        "final_train_acc": 0.9726851851851852,
+        "val_accs": [
+            0.9515,
+            0.9638333333333333,
+            0.9691666666666666,
+            0.9748333333333333,
+            0.974
+        ],
+        "train_accs": [
+            0.9062592592592592,
+            0.9541111111111111,
+            0.9637962962962963,
+            0.9693518518518518,
+            0.9726851851851852
+        ],
+        "params_count": 1462648,
+        "training_time_sec": 59.259705781936646
+    },
+    "3_layers_wide_constant_dropout0.4": {
+        "width_scheme": "wide_constant",
+        "widths": [
+            1024,
+            1024,
+            1024
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": false,
+        "final_val_acc": 0.974,
+        "final_train_acc": 0.9718888888888889,
+        "val_accs": [
+            0.9553333333333334,
+            0.9556666666666667,
+            0.9693333333333334,
+            0.9731666666666666,
+            0.974
+        ],
+        "train_accs": [
+            0.9086111111111111,
+            0.9524074074074074,
+            0.9612407407407407,
+            0.9671666666666666,
+            0.9718888888888889
+        ],
+        "params_count": 2913400,
+        "training_time_sec": 61.89173769950867
+    },
+    "3_layers_wide_increasing_dropout0.4": {
+        "width_scheme": "wide_increasing",
+        "widths": [
+            256,
+            512,
+            1024
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9698333333333333,
+        "final_train_acc": 0.9624259259259259,
+        "val_accs": [
+            0.9498333333333333,
+            0.9653333333333334,
+            0.9711666666666666,
+            0.9713333333333334,
+            0.9698333333333333
+        ],
+        "train_accs": [
+            0.8886666666666667,
+            0.9432962962962963,
+            0.9523888888888888,
+            0.9579444444444445,
+            0.9624259259259259
+        ],
+        "params_count": 868216,
+        "training_time_sec": 59.500359535217285
+    },
+    "3_layers_xwide_decreasing_dropout0.4": {
+        "width_scheme": "xwide_decreasing",
+        "widths": [
+            2048,
+            1024,
+            512
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9728333333333333,
+        "final_train_acc": 0.9737592592592592,
+        "val_accs": [
+            0.9613333333333334,
+            0.97,
+            0.9683333333333334,
+            0.9746666666666667,
+            0.9728333333333333
+        ],
+        "train_accs": [
+            0.9117407407407407,
+            0.9564259259259259,
+            0.9654814814814815,
+            0.9691481481481482,
+            0.9737592592592592
+        ],
+        "params_count": 4235896,
+        "training_time_sec": 66.17461919784546
+    },
+    "3_layers_xwide_constant_dropout0.4": {
+        "width_scheme": "xwide_constant",
+        "widths": [
+            2048,
+            2048,
+            2048
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": false,
+        "final_val_acc": 0.968,
+        "final_train_acc": 0.9728333333333333,
+        "val_accs": [
+            0.9515,
+            0.9666666666666667,
+            0.9685,
+            0.9723333333333334,
+            0.968
+        ],
+        "train_accs": [
+            0.9108333333333334,
+            0.9525370370370371,
+            0.9625555555555556,
+            0.9686481481481481,
+            0.9728333333333333
+        ],
+        "params_count": 10020984,
+        "training_time_sec": 76.56958174705505
+    },
+    "3_layers_xwide_increasing_dropout0.4": {
+        "width_scheme": "xwide_increasing",
+        "widths": [
+            512,
+            1024,
+            2048
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": false,
+        "final_val_acc": 0.9695,
+        "final_train_acc": 0.9678888888888889,
+        "val_accs": [
+            0.9518333333333333,
+            0.959,
+            0.9625,
+            0.9705,
+            0.9695
+        ],
+        "train_accs": [
+            0.9033518518518519,
+            0.946925925925926,
+            0.9574444444444444,
+            0.9620185185185185,
+            0.9678888888888889
+        ],
+        "params_count": 3047032,
+        "training_time_sec": 62.27897596359253
+    },
+    "3_layers_narrow_decreasing_dropout0.4_batchnorm": {
+        "width_scheme": "narrow_decreasing",
+        "widths": [
+            64,
+            32,
+            16
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": true,
+        "final_val_acc": 0.951,
+        "final_train_acc": 0.8940925925925925,
+        "val_accs": [
+            0.9235,
+            0.9365,
+            0.9413333333333334,
+            0.9476666666666667,
+            0.951
+        ],
+        "train_accs": [
+            0.7204444444444444,
+            0.8573148148148149,
+            0.877462962962963,
+            0.8897222222222222,
+            0.8940925925925925
+        ],
+        "params_count": 53352,
+        "training_time_sec": 58.260969400405884
+    },
+    "3_layers_narrow_constant_dropout0.4_batchnorm": {
+        "width_scheme": "narrow_constant",
+        "widths": [
+            64,
+            64,
+            64
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9585,
+        "final_train_acc": 0.9169444444444445,
+        "val_accs": [
+            0.9353333333333333,
+            0.9463333333333334,
+            0.9483333333333334,
+            0.9556666666666667,
+            0.9585
+        ],
+        "train_accs": [
+            0.7962407407407407,
+            0.8865555555555555,
+            0.9024629629629629,
+            0.9121851851851852,
+            0.9169444444444445
+        ],
+        "params_count": 59704,
+        "training_time_sec": 57.57255673408508
+    },
+    "3_layers_narrow_increasing_dropout0.4_batchnorm": {
+        "width_scheme": "narrow_increasing",
+        "widths": [
+            16,
+            32,
+            64
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": true,
+        "final_val_acc": 0.8935,
+        "final_train_acc": 0.7648148148148148,
+        "val_accs": [
+            0.8775,
+            0.889,
+            0.895,
+            0.8891666666666667,
+            0.8935
+        ],
+        "train_accs": [
+            0.6025185185185186,
+            0.7156111111111111,
+            0.7426296296296296,
+            0.7543518518518518,
+            0.7648148148148148
+        ],
+        "params_count": 16200,
+        "training_time_sec": 60.139479875564575
+    },
+    "3_layers_medium_decreasing_dropout0.4_batchnorm": {
+        "width_scheme": "medium_decreasing",
+        "widths": [
+            256,
+            128,
+            64
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9738333333333333,
+        "final_train_acc": 0.9583148148148148,
+        "val_accs": [
+            0.9553333333333334,
+            0.9633333333333334,
+            0.9701666666666666,
+            0.9728333333333333,
+            0.9738333333333333
+        ],
+        "train_accs": [
+            0.8774444444444445,
+            0.933537037037037,
+            0.9462222222222222,
+            0.9527037037037037,
+            0.9583148148148148
+        ],
+        "params_count": 243768,
+        "training_time_sec": 61.903008460998535
+    },
+    "3_layers_medium_constant_dropout0.4_batchnorm": {
+        "width_scheme": "medium_constant",
+        "widths": [
+            256,
+            256,
+            256
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9725,
+        "final_train_acc": 0.9596666666666667,
+        "val_accs": [
+            0.958,
+            0.9693333333333334,
+            0.969,
+            0.9711666666666666,
+            0.9725
+        ],
+        "train_accs": [
+            0.8855185185185185,
+            0.9399814814814815,
+            0.951462962962963,
+            0.9567222222222223,
+            0.9596666666666667
+        ],
+        "params_count": 336760,
+        "training_time_sec": 61.90361833572388
+    },
+    "3_layers_medium_increasing_dropout0.4_batchnorm": {
+        "width_scheme": "medium_increasing",
+        "widths": [
+            64,
+            128,
+            256
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9611666666666666,
+        "final_train_acc": 0.9237037037037037,
+        "val_accs": [
+            0.936,
+            0.9523333333333334,
+            0.9518333333333333,
+            0.9578333333333333,
+            0.9611666666666666
+        ],
+        "train_accs": [
+            0.8221111111111111,
+            0.8952777777777777,
+            0.9084074074074074,
+            0.9173148148148148,
+            0.9237037037037037
+        ],
+        "params_count": 95160,
+        "training_time_sec": 59.91412377357483
+    },
+    "3_layers_wide_decreasing_dropout0.4_batchnorm": {
+        "width_scheme": "wide_decreasing",
+        "widths": [
+            1024,
+            512,
+            256
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9781666666666666,
+        "final_train_acc": 0.9737962962962963,
+        "val_accs": [
+            0.9648333333333333,
+            0.974,
+            0.9743333333333334,
+            0.9765,
+            0.9781666666666666
+        ],
+        "train_accs": [
+            0.9173148148148148,
+            0.9556296296296296,
+            0.9655185185185186,
+            0.9698333333333333,
+            0.9737962962962963
+        ],
+        "params_count": 1466232,
+        "training_time_sec": 60.64070510864258
+    },
+    "3_layers_wide_constant_dropout0.4_batchnorm": {
+        "width_scheme": "wide_constant",
+        "widths": [
+            1024,
+            1024,
+            1024
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9781666666666666,
+        "final_train_acc": 0.9728888888888889,
+        "val_accs": [
+            0.9621666666666666,
+            0.9673333333333334,
+            0.9726666666666667,
+            0.974,
+            0.9781666666666666
+        ],
+        "train_accs": [
+            0.9177777777777778,
+            0.9563333333333334,
+            0.9648148148148148,
+            0.9697407407407408,
+            0.9728888888888889
+        ],
+        "params_count": 2919544,
+        "training_time_sec": 63.104552268981934
+    },
+    "3_layers_wide_increasing_dropout0.4_batchnorm": {
+        "width_scheme": "wide_increasing",
+        "widths": [
+            256,
+            512,
+            1024
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": true,
+        "final_val_acc": 0.977,
+        "final_train_acc": 0.9628518518518518,
+        "val_accs": [
+            0.9588333333333333,
+            0.9653333333333334,
+            0.9706666666666667,
+            0.9745,
+            0.977
+        ],
+        "train_accs": [
+            0.8981851851851852,
+            0.9415925925925926,
+            0.952,
+            0.9581111111111111,
+            0.9628518518518518
+        ],
+        "params_count": 871800,
+        "training_time_sec": 60.20661950111389
+    },
+    "3_layers_xwide_decreasing_dropout0.4_batchnorm": {
+        "width_scheme": "xwide_decreasing",
+        "widths": [
+            2048,
+            1024,
+            512
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9773333333333334,
+        "final_train_acc": 0.9767037037037037,
+        "val_accs": [
+            0.9621666666666666,
+            0.9723333333333334,
+            0.9726666666666667,
+            0.979,
+            0.9773333333333334
+        ],
+        "train_accs": [
+            0.9217037037037037,
+            0.9612222222222222,
+            0.9683703703703703,
+            0.9727777777777777,
+            0.9767037037037037
+        ],
+        "params_count": 4243064,
+        "training_time_sec": 67.34886193275452
+    },
+    "3_layers_xwide_constant_dropout0.4_batchnorm": {
+        "width_scheme": "xwide_constant",
+        "widths": [
+            2048,
+            2048,
+            2048
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9786666666666667,
+        "final_train_acc": 0.9751296296296297,
+        "val_accs": [
+            0.9643333333333334,
+            0.9666666666666667,
+            0.9743333333333334,
+            0.9766666666666667,
+            0.9786666666666667
+        ],
+        "train_accs": [
+            0.9245740740740741,
+            0.9587037037037037,
+            0.9672222222222222,
+            0.9717592592592592,
+            0.9751296296296297
+        ],
+        "params_count": 10033272,
+        "training_time_sec": 77.08579111099243
+    },
+    "3_layers_xwide_increasing_dropout0.4_batchnorm": {
+        "width_scheme": "xwide_increasing",
+        "widths": [
+            512,
+            1024,
+            2048
+        ],
+        "dropout_rate": 0.4,
+        "use_batchnorm": true,
+        "final_val_acc": 0.9736666666666667,
+        "final_train_acc": 0.9691296296296297,
+        "val_accs": [
+            0.9608333333333333,
+            0.971,
+            0.9715,
+            0.9716666666666667,
+            0.9736666666666667
+        ],
+        "train_accs": [
+            0.911074074074074,
+            0.9515740740740741,
+            0.9586851851851852,
+            0.9640185185185185,
+            0.9691296296296297
+        ],
+        "params_count": 3054200,
+        "training_time_sec": 64.39112305641174
+    }
+}
